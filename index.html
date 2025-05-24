@@ -4,37 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Bus Arrival App</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-    }
-
-    th, td {
-      padding: 10px;
-      border: 1px solid #ccc;
-      text-align: left;
-    }
-
-    label, input, button {
-      font-size: 1rem;
-      margin-right: 10px;
-    }
-  </style>
-</head>
+  <link rel="stylesheet" href="styles.css">
+  </head>
 <body>
 
   <h1>Bus Arrival App</h1>
 
-  <label for="busStopId">Bus Stop ID:</label>
-  <input type="text" id="busStopId" placeholder="Enter Bus Stop ID" />
-  <button id="showArrivalsBtn">Show Arrivals</button>
+  <div class="input-row">
+    <label for="busStopId">Bus Stop ID:</label>
+    <input type="text" id="busStopId" placeholder="Enter Bus Stop ID" />
+    <button id="showArrivalsBtn">Show Arrivals</button>
+  </div>
 
   <div id="result"></div>
 
