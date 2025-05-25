@@ -37,9 +37,9 @@ document.getElementById('showArrivalsBtn').addEventListener('click', async () =>
           <tr>
             <td>${service.bus_no}</td>
             <td>${service.operator}</td>
-            <td>${service.next_bus_mins < 0
+            <td>${service.next_bus_mins <= 0
               ? 'Arrived'
-              : service.next_bus_mins === 0
+              : service.next_bus_mins === 1
               ? 'Arriving'
               : service.next_bus_mins + ' min'}</td>
           </tr>
@@ -52,4 +52,9 @@ document.getElementById('showArrivalsBtn').addEventListener('click', async () =>
       console.error(error);
       resultDiv.innerHTML = "<p>Error fetching data. Please try again.</p>";
     }
+  });
+
+  document.getElementById('resetBtn').addEventListener('click', () => {
+    document.getElementById('busStopId').value = '';
+    document.getElementById('result').innerHTML = '';
   });

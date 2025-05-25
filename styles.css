@@ -6,7 +6,12 @@ body {
   justify-content: center;
   align-items: center;
   color: black;
-  background-color: rgb(130, 231, 139);
+  background-color: bisque;
+  background-image: url('./BUS2.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
@@ -38,6 +43,7 @@ input {
 button {
   font-family: 'Nunito';
   padding: 5px;
+  background-color: beige;
 }
 
 h1 {
