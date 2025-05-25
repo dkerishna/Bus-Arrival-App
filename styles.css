@@ -74,3 +74,16 @@ th, td {
 th {
   background-color: beige;
 }
+
+footer {
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
