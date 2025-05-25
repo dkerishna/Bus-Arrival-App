@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI';
+  font-family: 'Nunito';
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,24 +25,24 @@ body {
 }
 
 label {
-  font-family: 'Segoe UI';
+  font-family: 'Nunito';
   font-weight: 500;
 }
 
 input {
-  font-family: 'Segoe UI';
+  font-family: 'Nunito';
   margin-right: 20px;
   padding: 5px;
 }
 
 button {
-  font-family: 'Segoe UI';
+  font-family: 'Nunito';
   padding: 5px;
 }
 
 h1 {
   font-weight: bold;
-  font-family: 'Segoe UI';
+  font-family: 'Nunito';
   font-size: 50px;
 }
 
