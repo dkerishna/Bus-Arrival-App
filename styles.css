@@ -61,6 +61,7 @@ table {
   border-collapse: collapse;
   margin-top: 20px;
   margin: auto;
+  margin-bottom: 40px;
   background-color: beige;
   border-radius: 12px;
   overflow: hidden;
